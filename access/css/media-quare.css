@@ -1,0 +1,23 @@
+
+@media (max-width: 1140px) {
+    .knife-dec {
+        display: none;
+    }
+
+    .main-container {
+        display:block;
+        padding: 8px 8px 0px 8px;
+    }
+}
+
+@media (max-width: 588px) {
+    .main-container {
+        padding: 8px 8px 0px 8px;
+    }
+    .desc {
+        padding: 16px;
+    }
+    .lineL{
+        margin: 32px;
+    }
+}

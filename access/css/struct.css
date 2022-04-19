@@ -1,0 +1,60 @@
+body {
+    background: url('/access/images/stena.jpg'),
+      #8d8d8d;
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+}
+
+.knife-dec {
+    align-self: flex-start;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    
+}
+
+.logo-text {
+    font-size: 35px;
+    color: var(--color-text);
+}
+
+.main-container{
+    margin: auto;
+    padding:  24px 24px 0px 24px;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    justify-content: space-evenly;
+}
+
+.content {
+    max-width: 1150px;
+    flex-grow: 2;
+}
+.desc {
+    padding: 40px 48px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+    word-wrap: break-word;
+}
+

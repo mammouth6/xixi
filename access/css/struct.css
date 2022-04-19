@@ -29,6 +29,7 @@ header {
 .logo-text {
     font-size: 30px;
     color: var(--color-text);
+    text-allign: center;
 }
 
 .main-container{

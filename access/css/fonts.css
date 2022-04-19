@@ -2,7 +2,7 @@
     font-family: 'MedievalSharp';
     font-style: normal;
     font-weight: 400;
-    src: url('access/fonts/MedievalSharp-Regular.ttf');
+    src: url('.. /fonts/MedievalSharp-Regular.ttf');
 }
 @font-face {
     font-family: 'UnifrakturMaguntia';
@@ -14,5 +14,5 @@
     font-family: 'Quintessential';
     font-style: normal;
     font-weight: 400;
-    src: url('access/fonts/Quintessential-Regular.ttf');
+    src: url('.. /fonts/Quintessential-Regular.ttf');
 }

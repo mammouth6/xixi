@@ -4,3 +4,42 @@
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.31);
 }
+
+.star-bar {
+    width: 100%;
+    display: flex;
+    padding: 32px;
+}
+
+.rate-star {
+    position: relative;
+    min-width: 20px;
+    flex-grow: 1;
+    background: url(/access/images/star.png);
+    background-size: cover;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.rate-star:before {
+    display: block;
+    content: "";
+    padding-top: 100%;
+}
+
+.norm-btn {
+    padding: 16px 32px;
+    align-self: center;
+}
+
+.norm-textarea {
+    width: 100%;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.norm-textarea > p {
+    /* flex-grow: 1; */
+}

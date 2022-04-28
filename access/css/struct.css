@@ -29,7 +29,7 @@ header {
 .logo-text {
     font-size: 30px;
     color: var(--color-text);
-    text-allign: center;
+    text-align: center;
 }
 
 .main-container{
@@ -47,6 +47,8 @@ header {
 .content {
     max-width: 1150px;
     flex-grow: 2;
+    display: flex;
+    flex-direction: column;
 }
 .desc {
     padding: 40px 48px;

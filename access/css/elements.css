@@ -39,7 +39,3 @@
     align-items: center;
     justify-content: center;
 }
-
-.norm-textarea > p {
-    /* flex-grow: 1; */
-}

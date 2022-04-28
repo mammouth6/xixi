@@ -47,8 +47,6 @@ header {
 .content {
     max-width: 1150px;
     flex-grow: 2;
-    display: flex;
-    flex-direction: column;
 }
 .desc {
     padding: 40px 48px;

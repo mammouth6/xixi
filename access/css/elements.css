@@ -44,7 +44,6 @@
 
 .card {
     position: relative;
-    background-color: var(--self-color);
     max-width: 590px;
     min-width: 275px;
     flex-grow: 1;

@@ -15,7 +15,7 @@
     position: relative;
     min-width: 20px;
     flex-grow: 1;
-    background: url(access/images/star.png);
+    background: url(../images/star.png);
     background-size: cover;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
 }
